@@ -1,0 +1,69 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#background{
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#gameboard{
+	background-color: darkgrey;
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	display: flex;
+}
+#leftarea{
+	width: 8%;
+	height: 100%;
+	border-right: 1px dashed black;
+	position:absolute;
+	display: flex;
+	justify-content: space-around;
+	overflow-y: hidden;
+	align-items: center;
+}
+#ballarea{
+	width: 84%;
+	height: 100%;
+	left:8%;
+	position: absolute;
+	display: flex;
+	overflow: hidden;
+	justify-content: space-around;
+	align-items: center;
+}
+#rightarea{
+	width: 8%;
+	height: 100%;
+	left: 92%;
+	overflow-y: hidden;
+	border-left: 1px dashed black;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#rightplayer{
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	background-color: darkblue;
+}
+#leftplayer{
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	background-color: darkblue;
+}
+#ball{
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
